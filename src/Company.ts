@@ -1,7 +1,6 @@
 import { faker } from "@faker-js/faker";
-import { Mappable } from "./CustomMap";
+import { Mappable } from "./CustomMap"; // makes sure class company satisfies the Mappable interface
 
-// makes sure class company implements interface
 export class Company implements Mappable{
     companyName: string;
     catchPhrase: string;
